@@ -1,16 +1,5 @@
 <?xml version="1.0" ?><enemy><behaviour><root x="110" y="40"><normal><condition id="isInNamedArea"><string id="area name">HEALAREA</string><string id="team" values="ownenemy">OWN_TEAM</string><string id="who" values="targetself">self</string><string id="Comment">Am I in shop?</string><normal><condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
-<string id="upgrade name">PiggyBank</string>
-<normal><condition id="canPayUpgrade">
-<string id="upgrade name">PiggyBank</string>
-<normal><action id="buyUpgrade">
-<string id="upgrade name">PiggyBank</string>
-</action></normal>
-</condition>
-</normal>
-<else>
-<condition id="isUpgradeEnabled">
-<string id="condition" values="yesno">no</string>
 <string id="upgrade name">CHAMELEONTONGUE</string>
 <normal><condition id="canPayUpgrade">
 <string id="upgrade name">CHAMELEONTONGUE</string>
@@ -22,33 +11,33 @@
 <else>
 <condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
-<string id="upgrade name">CHAMELEONHITLIFESTEAL1</string>
+<string id="upgrade name">healthRegen1</string>
 <normal><condition id="canPayUpgrade">
-<string id="upgrade name">CHAMELEONHITLIFESTEAL1</string>
+<string id="upgrade name">healthRegen1</string>
 <normal><action id="buyUpgrade">
-<string id="upgrade name">CHAMELEONHITLIFESTEAL1</string>
+<string id="upgrade name">healthRegen1</string>
 </action></normal>
 </condition>
 </normal>
 <else>
 <condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
-<string id="upgrade name">CHAMELEONTONGUEDAMAGE4</string>
+<string id="upgrade name">ChameleonHitCrit</string>
 <normal><condition id="canPayUpgrade">
-<string id="upgrade name">CHAMELEONTONGUEDAMAGE4</string>
+<string id="upgrade name">ChameleonHitCrit</string>
 <normal><action id="buyUpgrade">
-<string id="upgrade name">CHAMELEONTONGUEDAMAGE4</string>
+<string id="upgrade name">ChameleonHitCrit</string>
 </action></normal>
 </condition>
 </normal>
 <else>
 <condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
-<string id="upgrade name">Stealth</string>
+<string id="upgrade name">ChameleonHitCrit2</string>
 <normal><condition id="canPayUpgrade">
-<string id="upgrade name">Stealth</string>
+<string id="upgrade name">ChameleonHitCrit2</string>
 <normal><action id="buyUpgrade">
-<string id="upgrade name">Stealth</string>
+<string id="upgrade name">ChameleonHitCrit2</string>
 </action></normal>
 </condition>
 </normal>
@@ -110,11 +99,99 @@
 <else>
 <condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
+<string id="upgrade name">healthRegen2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">healthRegen2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">healthRegen2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">CHAMELEONTONGUEDAMAGE4</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">CHAMELEONTONGUEDAMAGE4</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">CHAMELEONTONGUEDAMAGE4</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">Stealth</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">Stealth</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">Stealth</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ChameleonTongueDamage1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ChameleonTongueDamage1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ChameleonTongueDamage1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ChameleonTongueDamage2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ChameleonTongueDamage2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ChameleonTongueDamage2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">CHAMELEONTONGUEDAMAGE3</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">CHAMELEONTONGUEDAMAGE3</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">CHAMELEONTONGUEDAMAGE3</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
 <string id="upgrade name">addHealth1</string>
 <normal><condition id="canPayUpgrade">
 <string id="upgrade name">addHealth1</string>
 <normal><action id="buyUpgrade">
 <string id="upgrade name">addHealth1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">CHAMELEONSTEALTHSURPRISE1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">CHAMELEONSTEALTHSURPRISE1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">CHAMELEONSTEALTHSURPRISE1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ChameleonStealthSurprise2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ChameleonStealthSurprise2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ChameleonStealthSurprise2</string>
 </action></normal>
 </condition>
 </normal>
@@ -132,28 +209,6 @@
 <else>
 <condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
-<string id="upgrade name">ChameleonTongueSilence2</string>
-<normal><condition id="canPayUpgrade">
-<string id="upgrade name">ChameleonTongueSilence2</string>
-<normal><action id="buyUpgrade">
-<string id="upgrade name">ChameleonTongueSilence2</string>
-</action></normal>
-</condition>
-</normal>
-<else>
-<condition id="isUpgradeEnabled">
-<string id="condition" values="yesno">no</string>
-<string id="upgrade name">CHAMELEONTONGUERANGE1</string>
-<normal><condition id="canPayUpgrade">
-<string id="upgrade name">CHAMELEONTONGUERANGE1</string>
-<normal><action id="buyUpgrade">
-<string id="upgrade name">CHAMELEONTONGUERANGE1</string>
-</action></normal>
-</condition>
-</normal>
-<else>
-<condition id="isUpgradeEnabled">
-<string id="condition" values="yesno">no</string>
 <string id="upgrade name">addHealth2</string>
 <normal><condition id="canPayUpgrade">
 <string id="upgrade name">addHealth2</string>
@@ -165,33 +220,33 @@
 <else>
 <condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
-<string id="upgrade name">ChameleonStealthCloneWalk</string>
+<string id="upgrade name">ChameleonTongueSilence2</string>
 <normal><condition id="canPayUpgrade">
-<string id="upgrade name">ChameleonStealthCloneWalk</string>
+<string id="upgrade name">ChameleonTongueSilence2</string>
 <normal><action id="buyUpgrade">
-<string id="upgrade name">ChameleonStealthCloneWalk</string>
+<string id="upgrade name">ChameleonTongueSilence2</string>
 </action></normal>
 </condition>
 </normal>
 <else>
 <condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
-<string id="upgrade name">CHAMELEONSTEALTHCLONEATTACK</string>
+<string id="upgrade name">ChameleonStealthRegen</string>
 <normal><condition id="canPayUpgrade">
-<string id="upgrade name">CHAMELEONSTEALTHCLONEATTACK</string>
+<string id="upgrade name">ChameleonStealthRegen</string>
 <normal><action id="buyUpgrade">
-<string id="upgrade name">CHAMELEONSTEALTHCLONEATTACK</string>
+<string id="upgrade name">ChameleonStealthRegen</string>
 </action></normal>
 </condition>
 </normal>
 <else>
 <condition id="isUpgradeEnabled">
 <string id="condition" values="yesno">no</string>
-<string id="upgrade name">ChameleonStealthDuration</string>
+<string id="upgrade name">undefined</string>
 <normal><condition id="canPayUpgrade">
-<string id="upgrade name">ChameleonStealthDuration</string>
+<string id="upgrade name">undefined</string>
 <normal><action id="buyUpgrade">
-<string id="upgrade name">ChameleonStealthDuration</string>
+<string id="upgrade name">undefined</string>
 </action></normal>
 </condition>
 </normal>
@@ -207,4 +262,15 @@
 </condition>
 </normal>
 <else>
-</else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></normal></condition></normal></root></behaviour></enemy>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">CHAMELEONSTEALTHCLONEATTACK</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">CHAMELEONSTEALTHCLONEATTACK</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">CHAMELEONSTEALTHCLONEATTACK</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+</else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></normal></condition></normal></root></behaviour></enemy>
